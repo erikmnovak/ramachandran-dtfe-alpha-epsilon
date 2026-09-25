@@ -1,0 +1,6 @@
+# Rebuildable local artifacts; validation records remain part of the project.
+.cache/
+png_outputs/
+.ipynb_checkpoints/
+__pycache__/
+*.pyc

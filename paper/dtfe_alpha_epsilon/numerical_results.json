@@ -1,0 +1,950 @@
+{
+  "parameters": {
+    "General": {
+      "N": 1055696,
+      "alpha_deg": 1.3951146879750211,
+      "k": 6.796947492463053
+    },
+    "Gly": {
+      "N": 112542,
+      "alpha_deg": 5.98135638419937,
+      "k": 6.027967697396854
+    },
+    "TransPro": {
+      "N": 63227,
+      "alpha_deg": 2.9526823737150942,
+      "k": 3.394636942667397
+    },
+    "CisPro": {
+      "N": 3523,
+      "alpha_deg": 14.555074437825905,
+      "k": 1.0
+    },
+    "PrePro": {
+      "N": 59498,
+      "alpha_deg": 3.0910437052519186,
+      "k": 2.820726580446475
+    },
+    "IleVal": {
+      "N": 191138,
+      "alpha_deg": 2.36932142320378,
+      "k": 5.116347523555875
+    }
+  },
+  "coverage": [
+    {
+      "category": "General",
+      "target": 0.98,
+      "exact_alpha_count": 1034583,
+      "N": 1055696,
+      "raster_before": 0.9730462178505933,
+      "raster_after": 0.9724541913581183
+    },
+    {
+      "category": "General",
+      "target": 0.995,
+      "exact_alpha_count": 1050418,
+      "N": 1055696,
+      "raster_before": 0.9929761976932754,
+      "raster_after": 0.9925556220730211
+    },
+    {
+      "category": "Gly",
+      "target": 0.98,
+      "exact_alpha_count": 110292,
+      "N": 112542,
+      "raster_before": 0.9712196335590269,
+      "raster_after": 0.9691848376606067
+    },
+    {
+      "category": "Gly",
+      "target": 0.995,
+      "exact_alpha_count": 111980,
+      "N": 112542,
+      "raster_before": 0.9914609656839225,
+      "raster_after": 0.9913721099678342
+    },
+    {
+      "category": "TransPro",
+      "target": 0.98,
+      "exact_alpha_count": 61963,
+      "N": 63227,
+      "raster_before": 0.9711673810239296,
+      "raster_after": 0.9708668764926376
+    },
+    {
+      "category": "TransPro",
+      "target": 0.995,
+      "exact_alpha_count": 62911,
+      "N": 63227,
+      "raster_before": 0.9919970898508549,
+      "raster_after": 0.9919654577949294
+    },
+    {
+      "category": "CisPro",
+      "target": 0.98,
+      "exact_alpha_count": 3453,
+      "N": 3523,
+      "raster_before": 0.963383479988646,
+      "raster_after": 0.963383479988646
+    },
+    {
+      "category": "CisPro",
+      "target": 0.995,
+      "exact_alpha_count": 3506,
+      "N": 3523,
+      "raster_before": 0.9832529094521715,
+      "raster_after": 0.9832529094521715
+    },
+    {
+      "category": "PrePro",
+      "target": 0.98,
+      "exact_alpha_count": 58310,
+      "N": 59498,
+      "raster_before": 0.9701838717267808,
+      "raster_after": 0.9705872466301388
+    },
+    {
+      "category": "PrePro",
+      "target": 0.995,
+      "exact_alpha_count": 59201,
+      "N": 59498,
+      "raster_before": 0.9915795488923997,
+      "raster_after": 0.9914787051665602
+    },
+    {
+      "category": "IleVal",
+      "target": 0.98,
+      "exact_alpha_count": 187317,
+      "N": 191138,
+      "raster_before": 0.9713662380060479,
+      "raster_after": 0.9720725339806842
+    },
+    {
+      "category": "IleVal",
+      "target": 0.995,
+      "exact_alpha_count": 190184,
+      "N": 191138,
+      "raster_before": 0.9929370402536387,
+      "raster_after": 0.9926911446180247
+    }
+  ],
+  "assessment": [
+    {
+      "category": "General",
+      "variant": "span_1.25",
+      "k": 6.796947492463053,
+      "target": 0.98,
+      "grid_size": 1536,
+      "raster_betti": [
+        3,
+        0,
+        0
+      ],
+      "area_deg2": 18575.57373046875,
+      "mask_cells": 338158,
+      "raster_count": 1026616,
+      "raster_coverage": 0.9724541913581183,
+      "raw_raster_count": 1027241,
+      "lost_count": 2274,
+      "gained_count": 1649,
+      "removed_cells": 6552,
+      "filled_cells": 8943,
+      "total_count": 1055696,
+      "exact_starting_construction_count": 1034583,
+      "mask_index": 898,
+      "mask_sha256": "7261050cf008029fde8cb30797edce527f65a1d47757d64b14e26fb5da5f1858",
+      "cross_grid_xor_area_deg2": 500.9765625,
+      "same_fine_mask_as_16": true,
+      "jaccard": 0.8772150056398501,
+      "published_reference_betti": [
+        4,
+        0,
+        0
+      ],
+      "boundary": {
+        "status": "computed",
+        "left_to_right": {
+          "status": "computed",
+          "sample_count": 14732,
+          "mean": 2.757987283828851,
+          "median": 2.2234764798058917,
+          "p95": 7.136612337023874,
+          "max": 12.736292033618902
+        },
+        "right_to_left": {
+          "status": "computed",
+          "sample_count": 5494,
+          "mean": 4.407714479619826,
+          "median": 1.1600970628841583,
+          "p95": 3.815348577210867,
+          "max": 121.67877833729366
+        },
+        "symmetric_max": 121.67877833729366,
+        "boundary_edge_counts": {
+          "left": 14732,
+          "right": 5494
+        },
+        "perimeters": {
+          "left": 3452.8125,
+          "right": 1287.65625
+        },
+        "period": 360.0,
+        "cell_width": 0.234375,
+        "grid_shape": [
+          1536,
+          1536
+        ],
+        "interpretation": "Nearest periodic distances between exposed raster-edge midpoints; not continuous contour Hausdorff distance; seams add no boundary"
+      }
+    },
+    {
+      "category": "General",
+      "variant": "span_1.25",
+      "k": 6.796947492463053,
+      "target": 0.995,
+      "grid_size": 1536,
+      "raster_betti": [
+        5,
+        5,
+        0
+      ],
+      "area_deg2": 28288.421630859375,
+      "mask_cells": 514975,
+      "raster_count": 1047837,
+      "raster_coverage": 0.9925556220730211,
+      "raw_raster_count": 1048281,
+      "lost_count": 659,
+      "gained_count": 215,
+      "removed_cells": 9215,
+      "filled_cells": 5512,
+      "total_count": 1055696,
+      "exact_starting_construction_count": 1050418,
+      "mask_index": 254,
+      "mask_sha256": "f92762167d5325b6728b863459b6878ba21ecfdcdb574fa34a8b12e058417c03",
+      "cross_grid_xor_area_deg2": 354.913330078125,
+      "same_fine_mask_as_16": false,
+      "jaccard": 0.8795278627819065,
+      "published_reference_betti": [
+        4,
+        0,
+        0
+      ],
+      "boundary": {
+        "status": "computed",
+        "left_to_right": {
+          "status": "computed",
+          "sample_count": 12872,
+          "mean": 5.204905433879027,
+          "median": 2.463726098628368,
+          "p95": 32.357355268817315,
+          "max": 42.703227908767325
+        },
+        "right_to_left": {
+          "status": "computed",
+          "sample_count": 6374,
+          "mean": 2.157121909627092,
+          "median": 1.5279380637193558,
+          "p95": 4.875197001409028,
+          "max": 22.983095010246117
+        },
+        "symmetric_max": 42.703227908767325,
+        "boundary_edge_counts": {
+          "left": 12872,
+          "right": 6374
+        },
+        "perimeters": {
+          "left": 3016.875,
+          "right": 1493.90625
+        },
+        "period": 360.0,
+        "cell_width": 0.234375,
+        "grid_shape": [
+          1536,
+          1536
+        ],
+        "interpretation": "Nearest periodic distances between exposed raster-edge midpoints; not continuous contour Hausdorff distance; seams add no boundary"
+      }
+    },
+    {
+      "category": "Gly",
+      "variant": "span_1.25",
+      "k": 6.027967697396854,
+      "target": 0.98,
+      "grid_size": 1536,
+      "raster_betti": [
+        3,
+        0,
+        0
+      ],
+      "area_deg2": 37885.4736328125,
+      "mask_cells": 689684,
+      "raster_count": 109074,
+      "raster_coverage": 0.9691848376606067,
+      "raw_raster_count": 109303,
+      "lost_count": 279,
+      "gained_count": 50,
+      "removed_cells": 13954,
+      "filled_cells": 5345,
+      "total_count": 112542,
+      "exact_starting_construction_count": 110292,
+      "mask_index": 75,
+      "mask_sha256": "ddf47df855ebc0bb418dc195a46acfd5f4262273c615cc44273744d859a3ffd2",
+      "cross_grid_xor_area_deg2": 535.14404296875,
+      "same_fine_mask_as_16": true,
+      "jaccard": 0.7942188551285535,
+      "published_reference_betti": [
+        3,
+        0,
+        0
+      ],
+      "boundary": {
+        "status": "computed",
+        "left_to_right": {
+          "status": "computed",
+          "sample_count": 16534,
+          "mean": 5.762146747302728,
+          "median": 4.412852433694388,
+          "p95": 16.653078686356288,
+          "max": 30.128812809802593
+        },
+        "right_to_left": {
+          "status": "computed",
+          "sample_count": 9144,
+          "mean": 3.7731842765946144,
+          "median": 2.985406739688249,
+          "p95": 12.02642963500078,
+          "max": 22.051187786885762
+        },
+        "symmetric_max": 30.128812809802593,
+        "boundary_edge_counts": {
+          "left": 16534,
+          "right": 9144
+        },
+        "perimeters": {
+          "left": 3875.15625,
+          "right": 2143.125
+        },
+        "period": 360.0,
+        "cell_width": 0.234375,
+        "grid_shape": [
+          1536,
+          1536
+        ],
+        "interpretation": "Nearest periodic distances between exposed raster-edge midpoints; not continuous contour Hausdorff distance; seams add no boundary"
+      }
+    },
+    {
+      "category": "Gly",
+      "variant": "span_1.25",
+      "k": 6.027967697396854,
+      "target": 0.995,
+      "grid_size": 1536,
+      "raster_betti": [
+        1,
+        2,
+        0
+      ],
+      "area_deg2": 55618.7255859375,
+      "mask_cells": 1012508,
+      "raster_count": 111571,
+      "raster_coverage": 0.9913721099678342,
+      "raw_raster_count": 111581,
+      "lost_count": 31,
+      "gained_count": 21,
+      "removed_cells": 4103,
+      "filled_cells": 6770,
+      "total_count": 112542,
+      "exact_starting_construction_count": 111980,
+      "mask_index": 20,
+      "mask_sha256": "3830f81bd3b1414758812e08348976fc66c4d621c5f39841b35e78023fb124f2",
+      "cross_grid_xor_area_deg2": 283.447265625,
+      "same_fine_mask_as_16": true,
+      "jaccard": 0.830680824090328,
+      "published_reference_betti": [
+        1,
+        2,
+        0
+      ],
+      "boundary": {
+        "status": "computed",
+        "left_to_right": {
+          "status": "computed",
+          "sample_count": 14340,
+          "mean": 6.52872247443691,
+          "median": 5.644497458808883,
+          "p95": 16.588386064319725,
+          "max": 27.5288378625488
+        },
+        "right_to_left": {
+          "status": "computed",
+          "sample_count": 9156,
+          "mean": 4.652482540957388,
+          "median": 4.550739337253332,
+          "p95": 9.847585581617288,
+          "max": 14.63296057386372
+        },
+        "symmetric_max": 27.5288378625488,
+        "boundary_edge_counts": {
+          "left": 14340,
+          "right": 9156
+        },
+        "perimeters": {
+          "left": 3360.9375,
+          "right": 2145.9375
+        },
+        "period": 360.0,
+        "cell_width": 0.234375,
+        "grid_shape": [
+          1536,
+          1536
+        ],
+        "interpretation": "Nearest periodic distances between exposed raster-edge midpoints; not continuous contour Hausdorff distance; seams add no boundary"
+      }
+    },
+    {
+      "category": "TransPro",
+      "variant": "span_1.25",
+      "k": 3.394636942667397,
+      "target": 0.98,
+      "grid_size": 1536,
+      "raster_betti": [
+        3,
+        0,
+        0
+      ],
+      "area_deg2": 4940.5517578125,
+      "mask_cells": 89940,
+      "raster_count": 61385,
+      "raster_coverage": 0.9708668764926376,
+      "raw_raster_count": 61404,
+      "lost_count": 60,
+      "gained_count": 41,
+      "removed_cells": 732,
+      "filled_cells": 883,
+      "total_count": 63227,
+      "exact_starting_construction_count": 61963,
+      "mask_index": 38,
+      "mask_sha256": "3c2e8d20ed86e064cbefc42fc86fe9cecd4362e5b83956fb930459c245a198ac",
+      "cross_grid_xor_area_deg2": 103.271484375,
+      "same_fine_mask_as_16": true,
+      "jaccard": 0.8026434990578345,
+      "published_reference_betti": [
+        3,
+        0,
+        0
+      ],
+      "boundary": {
+        "status": "computed",
+        "left_to_right": {
+          "status": "computed",
+          "sample_count": 4654,
+          "mean": 2.1097473010860384,
+          "median": 2.1544659739277665,
+          "p95": 3.9809268167491294,
+          "max": 6.15206472581564
+        },
+        "right_to_left": {
+          "status": "computed",
+          "sample_count": 2800,
+          "mean": 1.5549745626183424,
+          "median": 1.5634762575148178,
+          "p95": 2.9374101087739035,
+          "max": 3.6347021295166018
+        },
+        "symmetric_max": 6.15206472581564,
+        "boundary_edge_counts": {
+          "left": 4654,
+          "right": 2800
+        },
+        "perimeters": {
+          "left": 1090.78125,
+          "right": 656.25
+        },
+        "period": 360.0,
+        "cell_width": 0.234375,
+        "grid_shape": [
+          1536,
+          1536
+        ],
+        "interpretation": "Nearest periodic distances between exposed raster-edge midpoints; not continuous contour Hausdorff distance; seams add no boundary"
+      }
+    },
+    {
+      "category": "TransPro",
+      "variant": "span_1.25",
+      "k": 3.394636942667397,
+      "target": 0.995,
+      "grid_size": 1536,
+      "raster_betti": [
+        1,
+        0,
+        0
+      ],
+      "area_deg2": 7641.4306640625,
+      "mask_cells": 139108,
+      "raster_count": 62719,
+      "raster_coverage": 0.9919654577949294,
+      "raw_raster_count": 62721,
+      "lost_count": 2,
+      "gained_count": 0,
+      "removed_cells": 205,
+      "filled_cells": 0,
+      "total_count": 63227,
+      "exact_starting_construction_count": 62911,
+      "mask_index": 3,
+      "mask_sha256": "b5cd9d0a5eb8b95dcfdce697899b420583f728e889b6602e5f35a10a25acff28",
+      "cross_grid_xor_area_deg2": 83.49609375,
+      "same_fine_mask_as_16": true,
+      "jaccard": 0.8272823682695513,
+      "published_reference_betti": [
+        1,
+        0,
+        0
+      ],
+      "boundary": {
+        "status": "computed",
+        "left_to_right": {
+          "status": "computed",
+          "sample_count": 4356,
+          "mean": 2.389026065370203,
+          "median": 2.3083260472959566,
+          "p95": 4.806116403377297,
+          "max": 6.134180778891754
+        },
+        "right_to_left": {
+          "status": "computed",
+          "sample_count": 3358,
+          "mean": 2.0073468524468048,
+          "median": 1.988737822087165,
+          "p95": 3.8117474923337507,
+          "max": 5.161573955987153
+        },
+        "symmetric_max": 6.134180778891754,
+        "boundary_edge_counts": {
+          "left": 4356,
+          "right": 3358
+        },
+        "perimeters": {
+          "left": 1020.9375,
+          "right": 787.03125
+        },
+        "period": 360.0,
+        "cell_width": 0.234375,
+        "grid_shape": [
+          1536,
+          1536
+        ],
+        "interpretation": "Nearest periodic distances between exposed raster-edge midpoints; not continuous contour Hausdorff distance; seams add no boundary"
+      }
+    },
+    {
+      "category": "CisPro",
+      "variant": "span_1.25",
+      "k": 1.0,
+      "target": 0.98,
+      "grid_size": 1536,
+      "raster_betti": [
+        2,
+        0,
+        0
+      ],
+      "area_deg2": 5721.844482421875,
+      "mask_cells": 104163,
+      "raster_count": 3394,
+      "raster_coverage": 0.963383479988646,
+      "raw_raster_count": 3394,
+      "lost_count": 0,
+      "gained_count": 0,
+      "removed_cells": 0,
+      "filled_cells": 0,
+      "total_count": 3523,
+      "exact_starting_construction_count": 3453,
+      "mask_index": 0,
+      "mask_sha256": "62b36880025364cec1d1e84cb752901236a518e2525043847dc260edf8533d3a",
+      "cross_grid_xor_area_deg2": 60.589599609375,
+      "same_fine_mask_as_16": true,
+      "jaccard": 0.7287360487027106,
+      "published_reference_betti": [
+        2,
+        0,
+        0
+      ],
+      "boundary": {
+        "status": "computed",
+        "left_to_right": {
+          "status": "computed",
+          "sample_count": 3050,
+          "mean": 4.499360993917096,
+          "median": 4.225255400934358,
+          "p95": 9.04494668523167,
+          "max": 13.158439544642075
+        },
+        "right_to_left": {
+          "status": "computed",
+          "sample_count": 2556,
+          "mean": 3.7187955895060694,
+          "median": 3.7499999999999964,
+          "p95": 7.079909750153069,
+          "max": 8.135885136426472
+        },
+        "symmetric_max": 13.158439544642075,
+        "boundary_edge_counts": {
+          "left": 3050,
+          "right": 2556
+        },
+        "perimeters": {
+          "left": 714.84375,
+          "right": 599.0625
+        },
+        "period": 360.0,
+        "cell_width": 0.234375,
+        "grid_shape": [
+          1536,
+          1536
+        ],
+        "interpretation": "Nearest periodic distances between exposed raster-edge midpoints; not continuous contour Hausdorff distance; seams add no boundary"
+      }
+    },
+    {
+      "category": "CisPro",
+      "variant": "span_1.25",
+      "k": 1.0,
+      "target": 0.995,
+      "grid_size": 1536,
+      "raster_betti": [
+        3,
+        0,
+        0
+      ],
+      "area_deg2": 8745.1171875,
+      "mask_cells": 159200,
+      "raster_count": 3464,
+      "raster_coverage": 0.9832529094521715,
+      "raw_raster_count": 3464,
+      "lost_count": 0,
+      "gained_count": 0,
+      "removed_cells": 0,
+      "filled_cells": 0,
+      "total_count": 3523,
+      "exact_starting_construction_count": 3506,
+      "mask_index": 0,
+      "mask_sha256": "7ba360862643fea3ee680e58327e094adde49134a71b8015713f02cc8348e666",
+      "cross_grid_xor_area_deg2": 75.91552734375,
+      "same_fine_mask_as_16": false,
+      "jaccard": 0.7123921530823734,
+      "published_reference_betti": [
+        2,
+        0,
+        0
+      ],
+      "boundary": {
+        "status": "computed",
+        "left_to_right": {
+          "status": "computed",
+          "sample_count": 3906,
+          "mean": 6.699449527890366,
+          "median": 6.397192529979463,
+          "p95": 16.711026631375535,
+          "max": 22.170437981972757
+        },
+        "right_to_left": {
+          "status": "computed",
+          "sample_count": 3116,
+          "mean": 4.951944516715735,
+          "median": 5.188111786213749,
+          "p95": 9.53584077268414,
+          "max": 12.787943311597262
+        },
+        "symmetric_max": 22.170437981972757,
+        "boundary_edge_counts": {
+          "left": 3906,
+          "right": 3116
+        },
+        "perimeters": {
+          "left": 915.46875,
+          "right": 730.3125
+        },
+        "period": 360.0,
+        "cell_width": 0.234375,
+        "grid_shape": [
+          1536,
+          1536
+        ],
+        "interpretation": "Nearest periodic distances between exposed raster-edge midpoints; not continuous contour Hausdorff distance; seams add no boundary"
+      }
+    },
+    {
+      "category": "PrePro",
+      "variant": "span_1.25",
+      "k": 2.820726580446475,
+      "target": 0.98,
+      "grid_size": 1536,
+      "raster_betti": [
+        4,
+        0,
+        0
+      ],
+      "area_deg2": 11711.370849609375,
+      "mask_cells": 213199,
+      "raster_count": 57748,
+      "raster_coverage": 0.9705872466301388,
+      "raw_raster_count": 57724,
+      "lost_count": 19,
+      "gained_count": 43,
+      "removed_cells": 316,
+      "filled_cells": 1504,
+      "total_count": 59498,
+      "exact_starting_construction_count": 58310,
+      "mask_index": 26,
+      "mask_sha256": "ff428dcad5bdee0862d6de3236dbd7f2718e2ec9fdc83ad564e906a22e0c8572",
+      "cross_grid_xor_area_deg2": 138.592529296875,
+      "same_fine_mask_as_16": false,
+      "jaccard": 0.87530595819885,
+      "published_reference_betti": [
+        3,
+        0,
+        0
+      ],
+      "boundary": {
+        "status": "computed",
+        "left_to_right": {
+          "status": "computed",
+          "sample_count": 6318,
+          "mean": 2.420772526182561,
+          "median": 2.1158654458754778,
+          "p95": 5.704394110566771,
+          "max": 12.830827212347806
+        },
+        "right_to_left": {
+          "status": "computed",
+          "sample_count": 3554,
+          "mean": 1.4808015372905166,
+          "median": 1.4159819500305963,
+          "p95": 3.1444705933590793,
+          "max": 4.03233996892624
+        },
+        "symmetric_max": 12.830827212347806,
+        "boundary_edge_counts": {
+          "left": 6318,
+          "right": 3554
+        },
+        "perimeters": {
+          "left": 1480.78125,
+          "right": 832.96875
+        },
+        "period": 360.0,
+        "cell_width": 0.234375,
+        "grid_shape": [
+          1536,
+          1536
+        ],
+        "interpretation": "Nearest periodic distances between exposed raster-edge midpoints; not continuous contour Hausdorff distance; seams add no boundary"
+      }
+    },
+    {
+      "category": "PrePro",
+      "variant": "span_1.25",
+      "k": 2.820726580446475,
+      "target": 0.995,
+      "grid_size": 1536,
+      "raster_betti": [
+        3,
+        0,
+        0
+      ],
+      "area_deg2": 15409.97314453125,
+      "mask_cells": 280530,
+      "raster_count": 58991,
+      "raster_coverage": 0.9914787051665602,
+      "raw_raster_count": 58997,
+      "lost_count": 6,
+      "gained_count": 0,
+      "removed_cells": 512,
+      "filled_cells": 0,
+      "total_count": 59498,
+      "exact_starting_construction_count": 59201,
+      "mask_index": 3,
+      "mask_sha256": "8a24c63721e99cfacf0cd61fddc12b5e369b56be0ff4fe19505a69c824887ebb",
+      "cross_grid_xor_area_deg2": 106.89697265625,
+      "same_fine_mask_as_16": true,
+      "jaccard": 0.8480742473586839,
+      "published_reference_betti": [
+        3,
+        0,
+        0
+      ],
+      "boundary": {
+        "status": "computed",
+        "left_to_right": {
+          "status": "computed",
+          "sample_count": 5438,
+          "mean": 3.3761106608108395,
+          "median": 3.355739311705392,
+          "p95": 6.62912607362389,
+          "max": 9.491464092804641
+        },
+        "right_to_left": {
+          "status": "computed",
+          "sample_count": 4196,
+          "mean": 2.836589212241489,
+          "median": 2.8943177426316797,
+          "p95": 5.297470204930069,
+          "max": 6.8612255476427215
+        },
+        "symmetric_max": 9.491464092804641,
+        "boundary_edge_counts": {
+          "left": 5438,
+          "right": 4196
+        },
+        "perimeters": {
+          "left": 1274.53125,
+          "right": 983.4375
+        },
+        "period": 360.0,
+        "cell_width": 0.234375,
+        "grid_shape": [
+          1536,
+          1536
+        ],
+        "interpretation": "Nearest periodic distances between exposed raster-edge midpoints; not continuous contour Hausdorff distance; seams add no boundary"
+      }
+    },
+    {
+      "category": "IleVal",
+      "variant": "span_1.25",
+      "k": 5.116347523555875,
+      "target": 0.98,
+      "grid_size": 1536,
+      "raster_betti": [
+        2,
+        0,
+        0
+      ],
+      "area_deg2": 11585.9619140625,
+      "mask_cells": 210916,
+      "raster_count": 185800,
+      "raster_coverage": 0.9720725339806842,
+      "raw_raster_count": 185665,
+      "lost_count": 208,
+      "gained_count": 343,
+      "removed_cells": 1739,
+      "filled_cells": 5499,
+      "total_count": 191138,
+      "exact_starting_construction_count": 187317,
+      "mask_index": 158,
+      "mask_sha256": "b0bddd82656fbb13cb6c64b163e184b1d14da1dc2656a3ea5efef1940ea37166",
+      "cross_grid_xor_area_deg2": 268.61572265625,
+      "same_fine_mask_as_16": true,
+      "jaccard": 0.8709221509095142,
+      "published_reference_betti": [
+        2,
+        0,
+        0
+      ],
+      "boundary": {
+        "status": "computed",
+        "left_to_right": {
+          "status": "computed",
+          "sample_count": 8910,
+          "mean": 2.6310392920846333,
+          "median": 2.154465973927773,
+          "p95": 7.0234331548929845,
+          "max": 14.897108045691295
+        },
+        "right_to_left": {
+          "status": "computed",
+          "sample_count": 3590,
+          "mean": 1.1499426743695897,
+          "median": 1.0080849922315627,
+          "p95": 2.583972318621794,
+          "max": 4.0459398050700095
+        },
+        "symmetric_max": 14.897108045691295,
+        "boundary_edge_counts": {
+          "left": 8910,
+          "right": 3590
+        },
+        "perimeters": {
+          "left": 2088.28125,
+          "right": 841.40625
+        },
+        "period": 360.0,
+        "cell_width": 0.234375,
+        "grid_shape": [
+          1536,
+          1536
+        ],
+        "interpretation": "Nearest periodic distances between exposed raster-edge midpoints; not continuous contour Hausdorff distance; seams add no boundary"
+      }
+    },
+    {
+      "category": "IleVal",
+      "variant": "span_1.25",
+      "k": 5.116347523555875,
+      "target": 0.995,
+      "grid_size": 1536,
+      "raster_betti": [
+        3,
+        0,
+        0
+      ],
+      "area_deg2": 17045.892333984375,
+      "mask_cells": 310311,
+      "raster_count": 189741,
+      "raster_coverage": 0.9926911446180247,
+      "raw_raster_count": 189788,
+      "lost_count": 50,
+      "gained_count": 3,
+      "removed_cells": 2520,
+      "filled_cells": 347,
+      "total_count": 191138,
+      "exact_starting_construction_count": 190184,
+      "mask_index": 18,
+      "mask_sha256": "09624a4d256a7683d80ca05687ccc9b5370e6e8f9206aac8226e331476ac1ddd",
+      "cross_grid_xor_area_deg2": 131.231689453125,
+      "same_fine_mask_as_16": false,
+      "jaccard": 0.8590303431188443,
+      "published_reference_betti": [
+        2,
+        0,
+        0
+      ],
+      "boundary": {
+        "status": "computed",
+        "left_to_right": {
+          "status": "computed",
+          "sample_count": 6664,
+          "mean": 11.672278238394457,
+          "median": 3.4165733758859247,
+          "p95": 112.07081587942365,
+          "max": 123.8440693599213
+        },
+        "right_to_left": {
+          "status": "computed",
+          "sample_count": 4216,
+          "mean": 2.453863192221999,
+          "median": 2.4914404248597064,
+          "p95": 4.453125000000007,
+          "max": 5.673618017301663
+        },
+        "symmetric_max": 123.8440693599213,
+        "boundary_edge_counts": {
+          "left": 6664,
+          "right": 4216
+        },
+        "perimeters": {
+          "left": 1561.875,
+          "right": 988.125
+        },
+        "period": 360.0,
+        "cell_width": 0.234375,
+        "grid_shape": [
+          1536,
+          1536
+        ],
+        "interpretation": "Nearest periodic distances between exposed raster-edge midpoints; not continuous contour Hausdorff distance; seams add no boundary"
+      }
+    }
+  ]
+}

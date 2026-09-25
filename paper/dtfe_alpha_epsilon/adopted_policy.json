@@ -1,0 +1,194 @@
+{
+  "protocol_id": "dtfe-alpha-epsilon-span125-v1",
+  "status": "adopted_current_working_protocol",
+  "adopted_on": "2026-09-24",
+  "adoption_basis": "User selected the 1.25x stability requirement for continued project work after reviewing the six-class comparisons.",
+  "stages": [
+    "periodic_unsmoothed_DTFE_whole_triangles",
+    "common_guarded_minimum_area_alpha",
+    "density_window_cleanup"
+  ],
+  "targets": [
+    0.98,
+    0.995
+  ],
+  "smoothing": false,
+  "area_floor": false,
+  "affine_triangle_interior_clipping": false,
+  "alpha_specification": "documents/ALPHA_PRIMARY_METHOD.md",
+  "epsilon": {
+    "stability_span_factor": 1.25,
+    "span_factor_is_not_cleanup_ratio": true,
+    "cleanup_ratio_symbol": "k",
+    "high_density_threshold": "k * L",
+    "low_density_threshold": "L / k",
+    "ratio_domain_inclusive": [
+      1.0,
+      64.0
+    ],
+    "grid_sizes": [
+      768,
+      1536
+    ],
+    "same_ratio_for_both_targets_within_class": true,
+    "same_numeric_ratio_required_across_classes": false,
+    "criterion": "First full-mask joint plateau containing the closed interval [k,1.25*k] for both targets at both resolutions, with cross-resolution Betti agreement, nonempty regions, and inner-within-outer nesting on each grid.",
+    "representative": "Actual first Float64 left onset; preserve the stored value rather than rounding for computation.",
+    "actual_change_endpoint": "1.25*k must be strictly below the next geometry change.",
+    "right_censored_endpoint": "1.25*k may equal the observed upper bound 64; make no claim beyond 64.",
+    "stop_rule": "Stop at the first qualifying plateau; do not extend the stability span or seek a later simpler contour.",
+    "no_qualifying_plateau": "Return unresolved; no fallback ratio, larger span, or silent search-range extension.",
+    "k_equal_one_is_valid": true,
+    "foreground_connectivity": 8,
+    "background_connectivity": 4,
+    "periodic_axes": true,
+    "remove_component": "peak < k*L; equality retains the component",
+    "fill_background": "pit >= L/k after removals, unless winding, tied-largest, or touching an alpha-ineligible cell",
+    "post_cleanup_recalibration": false,
+    "selector_implementation": "novak_work/rama_epsilon_plateau_selection.py:select_first",
+    "cleanup_implementation": "novak_work/rama_alpha_window_cleanup.py:AlphaWindowCleanup.apply"
+  },
+  "KDE_role": {
+    "selecting_k_on_new_data": "No KDE input; use our fields and geometry only.",
+    "choosing_fixed_span_during_development": "Empirical Top8000 development decision informed by observed contours and available KDE comparisons.",
+    "assessment": "Compare to published reference only after the construction choices are fixed."
+  },
+  "current_top8000_derived_results": {
+    "General": {
+      "k": 6.796947492463053,
+      "joint_interval": {
+        "left_inclusive_k": 6.796947492463053,
+        "right_exclusive_k": 8.634671441066518,
+        "right_censored": false,
+        "observed_interval_right_k": 8.634671441066518
+      },
+      "betti_by_target": {
+        "0.98": [
+          3,
+          0,
+          0
+        ],
+        "0.995": [
+          5,
+          5,
+          0
+        ]
+      }
+    },
+    "Gly": {
+      "k": 6.027967697396854,
+      "joint_interval": {
+        "left_inclusive_k": 6.027967697396854,
+        "right_exclusive_k": null,
+        "right_censored": true,
+        "observed_interval_right_k": 64.0
+      },
+      "betti_by_target": {
+        "0.98": [
+          3,
+          0,
+          0
+        ],
+        "0.995": [
+          1,
+          2,
+          0
+        ]
+      }
+    },
+    "TransPro": {
+      "k": 3.394636942667397,
+      "joint_interval": {
+        "left_inclusive_k": 3.394636942667397,
+        "right_exclusive_k": 24.198404935506183,
+        "right_censored": false,
+        "observed_interval_right_k": 24.198404935506183
+      },
+      "betti_by_target": {
+        "0.98": [
+          3,
+          0,
+          0
+        ],
+        "0.995": [
+          1,
+          0,
+          0
+        ]
+      }
+    },
+    "CisPro": {
+      "k": 1.0,
+      "joint_interval": {
+        "left_inclusive_k": 1.0,
+        "right_exclusive_k": 1.3645697010081752,
+        "right_censored": false,
+        "observed_interval_right_k": 1.3645697010081752
+      },
+      "betti_by_target": {
+        "0.98": [
+          2,
+          0,
+          0
+        ],
+        "0.995": [
+          3,
+          0,
+          0
+        ]
+      }
+    },
+    "PrePro": {
+      "k": 2.820726580446475,
+      "joint_interval": {
+        "left_inclusive_k": 2.820726580446475,
+        "right_exclusive_k": 4.209945937928306,
+        "right_censored": false,
+        "observed_interval_right_k": 4.209945937928306
+      },
+      "betti_by_target": {
+        "0.98": [
+          4,
+          0,
+          0
+        ],
+        "0.995": [
+          3,
+          0,
+          0
+        ]
+      }
+    },
+    "IleVal": {
+      "k": 5.116347523555875,
+      "joint_interval": {
+        "left_inclusive_k": 5.116347523555875,
+        "right_exclusive_k": 7.077515013554026,
+        "right_censored": false,
+        "observed_interval_right_k": 7.077515013554026
+      },
+      "betti_by_target": {
+        "0.98": [
+          2,
+          0,
+          0
+        ],
+        "0.995": [
+          3,
+          0,
+          0
+        ]
+      }
+    }
+  },
+  "source_sha256": {
+    "novak_work/validation_results/uniform_alpha_epsilon_stability_v1/assessment.json": "503312dbcf5aae4c3b3b5f10dddfd0be56f17d267131c74b030c240020721442",
+    "novak_work/validation_results/uniform_alpha_epsilon_stability_v1/General/selection.json": "350c49f2cb4dfe3610c934e69547664b7ad5e6a48a9366e8d90f6b092cc1fd3d",
+    "novak_work/validation_results/uniform_alpha_epsilon_stability_v1/Gly/selection.json": "abfc1466632af47efdf5dbbe6501d6b26be9caa08627805db05c7603add9cfb9",
+    "novak_work/validation_results/uniform_alpha_epsilon_stability_v1/TransPro/selection.json": "c286e8e53c0dc0cd9513b3dac2648b5f60f8590e4dc64e73972285a5bf5160bc",
+    "novak_work/validation_results/uniform_alpha_epsilon_stability_v1/CisPro/selection.json": "b12af8a2c2b5cec45cfb45e5d511c5d95f9e9fb6f3e4bac16f69e996cb64b08a",
+    "novak_work/validation_results/uniform_alpha_epsilon_stability_v1/PrePro/selection.json": "fbd7d6323576bb292d81e9e1b487efa991e6db8d11814124c6f94d0dcf4a1293",
+    "novak_work/validation_results/uniform_alpha_epsilon_stability_v1/IleVal/selection.json": "30ada6f64c3761106b3d9567e2302f899367ad0b0ca00eb714a0b227e55c156d"
+  },
+  "result_scope": "Current corrected full six-class Top8000 2D inputs. Numeric k values are derived outputs, not defaults to copy to a new dataset."
+}

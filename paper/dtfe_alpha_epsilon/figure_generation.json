@@ -1,0 +1,137 @@
+{
+  "protocol": "dtfe-alpha-epsilon-span125-v1",
+  "purpose": "Render adopted saved results; no new fitting or parameter selection",
+  "schematic": "dtfe_schematic only: seeded illustrative points, not research evidence",
+  "reference": "Published Top8000 percentile grids, periodic bilinear scores, assessed after selection",
+  "input_sha256": {
+    "documents/DTFE_ALPHA_EPSILON_POLICY.json": "dafbc6fbff7926f81e1c64ffafc781369b0a0f3e04c57e6d1a3896e619193b11",
+    "novak_work/validation_results/uniform_alpha_epsilon_stability_v1/assessment.json": "503312dbcf5aae4c3b3b5f10dddfd0be56f17d267131c74b030c240020721442",
+    "novak_work/validation_results/uniform_alpha_epsilon_stability_v1/General/selected_masks.npz": "2dafb721722d3bb993184ab56ffe717574e05144efbff6f73690c031901b1242",
+    "novak_work/validation_results/internal_alpha_unfloored_assessment_v1/General/grid_1536_phase0.npz": "f205f4585db89364cd96def5f22047f97c3eec285d746c6af008a60ce9ac67a2",
+    "novak_work/validation_results/uniform_alpha_epsilon_stability_v1/General/selection.json": "350c49f2cb4dfe3610c934e69547664b7ad5e6a48a9366e8d90f6b092cc1fd3d",
+    "novak_work/validation_results/uniform_unsmoothed_alpha_guarded_v1/General/selection.json": "2986fbf2aa4c6e500d90a16f04e1c6aa3f7ae3cc6532b44bb63fcf24f699a456",
+    "novak_work/validation_results/uniform_alpha_epsilon_stability_v1/Gly/selected_masks.npz": "1efeff5091bc984906c0c2b7b90b53ceba6cfdc61a69aa808a1fcbe39119c2e6",
+    "novak_work/validation_results/internal_alpha_unfloored_assessment_v1/Gly/grid_1536_phase0.npz": "997bd410e342b4d5f80a1374349096766fe5d9021f351efe8990124e4abad34d",
+    "novak_work/validation_results/uniform_alpha_epsilon_stability_v1/Gly/selection.json": "abfc1466632af47efdf5dbbe6501d6b26be9caa08627805db05c7603add9cfb9",
+    "novak_work/validation_results/uniform_unsmoothed_alpha_guarded_v1/Gly/selection.json": "700c9c4b3a2a6b16c3bfc551eb343ec374bcbcef90d3bb9fc32ac176018c428d",
+    "novak_work/validation_results/uniform_alpha_epsilon_stability_v1/TransPro/selected_masks.npz": "dbf9d2f88600ce97cd6e68259ca063181c832b7f0d2785e1de70aa1c2c9eef14",
+    "novak_work/validation_results/internal_alpha_unfloored_assessment_v1/TransPro/grid_1536_phase0.npz": "b014b11f1c89e2dd3f3b009748a8bbbe6a071888c01ea4e9865e5578d6fc654e",
+    "novak_work/validation_results/uniform_alpha_epsilon_stability_v1/TransPro/selection.json": "c286e8e53c0dc0cd9513b3dac2648b5f60f8590e4dc64e73972285a5bf5160bc",
+    "novak_work/validation_results/uniform_unsmoothed_alpha_guarded_v1/TransPro/selection.json": "c2df2086af2f75cba77a85d2b47863a7929f25d06dbd7092989e8966e113a141",
+    "novak_work/validation_results/uniform_alpha_epsilon_stability_v1/CisPro/selected_masks.npz": "4d8546d81ad340f58baa85d8208d4b47c11e197371ce8603d62d9dab77a5a48b",
+    "novak_work/validation_results/internal_alpha_unfloored_assessment_v1/CisPro/grid_1536_phase0.npz": "d8639a8793bad59e2734ff7ea7363e17d23134580e8658e44dd2b92be9c20798",
+    "novak_work/validation_results/uniform_alpha_epsilon_stability_v1/CisPro/selection.json": "b12af8a2c2b5cec45cfb45e5d511c5d95f9e9fb6f3e4bac16f69e996cb64b08a",
+    "novak_work/validation_results/uniform_unsmoothed_alpha_guarded_v1/CisPro/selection.json": "5bd42a6930ed38dc9f83c70592c479fe933e0094fd027659bed4ac3ca1f5d1bf",
+    "novak_work/validation_results/uniform_alpha_epsilon_stability_v1/PrePro/selected_masks.npz": "7f8996e6f665ec14ec8d25d454ea8b842ac7a58aaec0c70a61d6dcd33695ed53",
+    "novak_work/validation_results/internal_alpha_unfloored_assessment_v1/PrePro/grid_1536_phase0.npz": "8137fa2576b78509832d2472a1f7cbfc6f5fc7eedd851817538bb76e7d94ae53",
+    "novak_work/validation_results/uniform_alpha_epsilon_stability_v1/PrePro/selection.json": "fbd7d6323576bb292d81e9e1b487efa991e6db8d11814124c6f94d0dcf4a1293",
+    "novak_work/validation_results/uniform_unsmoothed_alpha_guarded_v1/PrePro/selection.json": "081bdb7127954173112c4048a0f1fad0bf96763aa2837c0c76668454ef9a8587",
+    "novak_work/validation_results/uniform_alpha_epsilon_stability_v1/IleVal/selected_masks.npz": "f1b207f812482321d1d06aefd66d3548caac4a9e34afdd1748238eae370e35a3",
+    "novak_work/validation_results/internal_alpha_unfloored_assessment_v1/IleVal/grid_1536_phase0.npz": "cb48048cd62d903bb5ef4f3377fe76d17fa18e597c22876cdcf54519dbf1da06",
+    "novak_work/validation_results/uniform_alpha_epsilon_stability_v1/IleVal/selection.json": "30ada6f64c3761106b3d9567e2302f899367ad0b0ca00eb714a0b227e55c156d",
+    "novak_work/validation_results/uniform_unsmoothed_alpha_guarded_v1/IleVal/selection.json": "fc201e4317a3d27e90e85f1d7ff2dcda00c736dec0538051662f683edf63677f",
+    "novak_work/validation_results/uniform_unsmoothed_alpha_guarded_assessment_v1/CisPro_masks.npz": "5bf498fd047eb04922a69b8d9283dbe5911ff74fa2216e5c666a64f9765d821a",
+    "novak_work/validation_results/remaining_full_smoothing_assessment_v1/CisPro/grid/geometry/metadata.json": "4d5fa8eb8b25a347d1fbaa710d0356f0a7c4914d37e5e97faf8452f14d9fc34f",
+    "novak_work/validation_results/remaining_full_smoothing_assessment_v1/CisPro/grid/geometry/vertices.f64": "416b463b6c1688ad8be7a181764bc088d6a2e989ab3897a148e0490c9e660503",
+    "novak_work/validation_results/remaining_full_smoothing_assessment_v1/CisPro/grid/geometry/bases.f64": "d8f8b7c4327029fb678c065dc833e0baae8c8bcc31e828be586bc6c5b7cf882e",
+    "novak_work/validation_results/remaining_full_smoothing_assessment_v1/CisPro/grid/geometry/lifts.f64": "d90b3ef63c7dc3f01b0b5a99ec43dd2d1a0cf5c799c52d94f2fe4f5ea38471c0",
+    "novak_work/validation_results/uniform_unsmoothed_alpha_guarded_v1/CisPro/selected_triangles.npz": "5371e2901b668c85e7db1692b64a255bf155a666a87397b7ac6803095dc5b379",
+    "novak_work/validation_results/uniform_alpha_epsilon_events_v1/General/grid_1536/target_980/events.json": "4e80b6679a5e37ca5c463e17de1b288d8f1712f755428b11e86514c10742c124",
+    "novak_work/validation_results/uniform_alpha_epsilon_events_v1/General/grid_1536/target_980/masks.npz": "31b637edfd42327d800f9ec487ada8269247f6ef9ec0d70564f66074649c401d",
+    "novak_work/validation_results/uniform_alpha_epsilon_events_v1/General/grid_1536/target_995/events.json": "34511f0088ca3d972a8493a80b87d189ec87ef94aedabd8b8549082af0339ad6",
+    "novak_work/validation_results/uniform_alpha_epsilon_events_v1/General/grid_1536/target_995/masks.npz": "ef3cb8cb4b49da9462c9b73b63f9172bb7ac7c273bf814da3bd492cb7442c5cc",
+    "novak_work/validation_results/uniform_alpha_epsilon_events_v1/General/grid_768/target_980/events.json": "155065ad58bd05beb8134d2f698e8ef7cd8cfde34e11aed65ace47112a2057dc",
+    "novak_work/validation_results/uniform_alpha_epsilon_events_v1/General/grid_768/target_995/events.json": "88f4c53160f13b3eee23e7f36e92e2db0b791db00fa1e4e5d480a2b24598dda2"
+  },
+  "checks": [
+    {
+      "category": "General",
+      "target": 0.98,
+      "mask_hash_verified": true,
+      "jaccard_recomputed": 0.8772150056398501
+    },
+    {
+      "category": "General",
+      "target": 0.995,
+      "mask_hash_verified": true,
+      "jaccard_recomputed": 0.8795278627819065
+    },
+    {
+      "category": "Gly",
+      "target": 0.98,
+      "mask_hash_verified": true,
+      "jaccard_recomputed": 0.7942188551285535
+    },
+    {
+      "category": "Gly",
+      "target": 0.995,
+      "mask_hash_verified": true,
+      "jaccard_recomputed": 0.830680824090328
+    },
+    {
+      "category": "TransPro",
+      "target": 0.98,
+      "mask_hash_verified": true,
+      "jaccard_recomputed": 0.8026434990578345
+    },
+    {
+      "category": "TransPro",
+      "target": 0.995,
+      "mask_hash_verified": true,
+      "jaccard_recomputed": 0.8272823682695513
+    },
+    {
+      "category": "CisPro",
+      "target": 0.98,
+      "mask_hash_verified": true,
+      "jaccard_recomputed": 0.7287360487027106
+    },
+    {
+      "category": "CisPro",
+      "target": 0.995,
+      "mask_hash_verified": true,
+      "jaccard_recomputed": 0.7123921530823734
+    },
+    {
+      "category": "PrePro",
+      "target": 0.98,
+      "mask_hash_verified": true,
+      "jaccard_recomputed": 0.87530595819885
+    },
+    {
+      "category": "PrePro",
+      "target": 0.995,
+      "mask_hash_verified": true,
+      "jaccard_recomputed": 0.8480742473586839
+    },
+    {
+      "category": "IleVal",
+      "target": 0.98,
+      "mask_hash_verified": true,
+      "jaccard_recomputed": 0.8709221509095142
+    },
+    {
+      "category": "IleVal",
+      "target": 0.995,
+      "mask_hash_verified": true,
+      "jaccard_recomputed": 0.8590303431188443
+    }
+  ],
+  "script_sha256": "8d78f3d1553cb7e7bdd70b1f46b6d2c0572ab9b3ac3279e50306086d75c3f1f6",
+  "outputs": {
+    "figures/cispro_alpha.pdf": "8e64beb318847b78f491662b57c592ee286cffb5696cb241f36ee269448c1d58",
+    "figures/cispro_alpha.png": "68f745bfa9fa8aef6078daf29a2b9044f9edab8731c59e66972a24b7574feade",
+    "figures/dtfe_schematic.pdf": "b7530dd061f3a5c34afa44043da8a5cad310642971673feb99feafc9e68f2536",
+    "figures/dtfe_schematic.png": "2e36a547d90f030fcc022d7f292c17de4238669fa17712a379d2e08dd8149ff5",
+    "figures/general_cleanup.pdf": "85007c29211676fbccfd1b22de87dd938461e4eb97e8c485783ee680c3782f69",
+    "figures/general_cleanup.png": "3f76600154fda829441c75b5a2191abb55fc6bdcdeedd2159ddd154ab03ed2c7",
+    "figures/general_feature_fates.pdf": "0235c7f8c0386cea32370a6e0d001f730eddd8fa81d593dc396f97e5b8b59674",
+    "figures/general_feature_fates.png": "0aae1a9524732261e7a2419b52157c76043ce1cdf0e30b8bb443ed52ce7b4a71",
+    "figures/general_stability.pdf": "b0d37602d17a2fb02b451abff91736509c7617d7432a70e02f399f097e9c2d24",
+    "figures/general_stability.png": "25351db799c5b3327eb166d13113e6638c342e3cc06e730bfa78951aa624986e",
+    "figures/kde_comparison_980.pdf": "86180b673830c533fc461c7b2e1c32b541e50ebe195914d6c2e7a3d5be94b6a8",
+    "figures/kde_comparison_980.png": "45ba1b72b8f358b52cb1bd38b52d142872ddc7992f660fecad40cc59845eba3e",
+    "figures/kde_comparison_995.pdf": "7bd7d3247aad901800b049b282601d1a04a799278fd4191bdacc1855d143692e",
+    "figures/kde_comparison_995.png": "88d928614581a5dbe3e26e63d09d5d1c458b1c641f71d4ba0763c41fb21ffc7f"
+  }
+}

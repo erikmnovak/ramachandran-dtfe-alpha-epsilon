@@ -1,0 +1,4 @@
+# Paper figure generation and the included Python method modules/tests
+numpy
+scipy
+matplotlib

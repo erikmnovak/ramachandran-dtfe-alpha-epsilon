@@ -1,0 +1,21 @@
+{
+  "status": "compiled",
+  "pages": 19,
+  "protocol": "dtfe-alpha-epsilon-span125-v1",
+  "pdf": "/home/eriknovak/Documents/projects/ramachandran__alpha_contours/output/pdf/dtfe_alpha_epsilon.pdf",
+  "pdf_sha256": "02724ea5a8c64f05904b7c717d88084ff53da31c2716fd9bd70643264e4c5490",
+  "typesetting_messages": [],
+  "source_sha256": {
+    "dtfe_alpha_epsilon.tex": "9d47b5f1c1e6c07bb6592aa70ffa1558ff097b5270931f72af92b5cc134d6e7e",
+    "references.bib": "1dec05fe7acc8b3e4be985b8c62a15839326923b4741f79afb3aba96dff32a82",
+    "generate_figures.py": "8d78f3d1553cb7e7bdd70b1f46b6d2c0572ab9b3ac3279e50306086d75c3f1f6",
+    "build.py": "a8cb1cb67e52d54514c34784c0ce2ac4fb8dfc6c7b2d6997e4a5524a6c22e937",
+    "figure_generation.json": "4face68e2203717bcf07b3cb5118d23644389d50ac2c7b429684d597775d614c",
+    "numerical_results.json": "b947883c3d62e269420805d3aad087110d5c6baef1151a8edb3563464763472e",
+    "tables/agreement.tex": "268cfa19fc58258a997e388e20f05dcf0e2370ae91e13a6e27b1d803568dd523",
+    "tables/parameters.tex": "6b998e3520c59800c5d882e45e2e00e88623513fcae36a406c8d7e273c82bdbd"
+  },
+  "figure_hashes_verified": true,
+  "unresolved_question_marks": false,
+  "visual_review": "Rendered all 19 pages and reviewed the contact sheet; inspected the new discussion on page 10 and bibliography on page 19 at full-page resolution. No clipping, overlap, missing citation, or layout defect observed in the changed material."
+}
